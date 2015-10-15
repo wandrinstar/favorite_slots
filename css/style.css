@@ -1,0 +1,101 @@
+
+body {
+  font-family: palatino linotype;
+}
+#main:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('coins3.jpg');
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+}
+h1 {
+  color: navy;
+  text-align: center;
+}
+#list-container {
+  float: left;
+  width: 25%;
+  display: inline-block;
+}
+#display-container {
+  float: right;
+  width: 75%;
+  display: inline-block;
+}
+#image {
+  display: inline-block;
+  width: 75%;
+  height: 75%;
+}
+#description {
+  width: 75%;
+  border: 3px solid black;
+  background-color: white;
+  font-size: 20px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 3px solid black;
+  border-radius: 20%;
+}
+.myButton {
+	background-color: navy;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color: white;
+  color: black;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+table, tr {
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 75%;
+  font-family: impact;
+}
+th {
+  text-align: left;
+  background-color: grey;
+  font-family: Times New Roman;
+}
+td {
+  background-color: white;
+}
+.nav{
+  display: inline-block;
+  background-color: grey;
+}
+footer {
+  margin: 20px;
+  width:15%;
+  background-color: lightblue;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+}
+.affLink {
+    background-color: green;
+}
